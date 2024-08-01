@@ -1,0 +1,52 @@
+// // Define color variables
+// :root {
+//     --color-background: #ffffff;
+//     --color-text: #000000;
+//   }
+  
+//   [data-theme="dark"] {
+//     --color-background: #000000;
+//     --color-text: #ffffff;
+//   }
+  
+//   // Apply the variables
+//   body {
+//     background-color: var(--color-background);
+//     color: var(--color-text);
+//   }
+  
+  // Optional: Add styles for other elements
+//   button {
+//     background-color: var(--color-background);
+//     color: var(--color-text);
+//     border: 1px solid var(--color-text);
+//     padding: 10px;
+//     cursor: pointer;
+//   }
+  
+//   // Media query for automatic dark mode
+//   @media (prefers-color-scheme: dark) {
+//     :root {
+//       --color-background: #000000;
+//       --color-text: #ffffff;
+//     }
+//   }
+  
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+   font-family: "Lato",sans-serif;
+   overflow: hidden;
+}
+
+
